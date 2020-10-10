@@ -1,0 +1,28 @@
+{
+  "name": "live-chat",
+  "version": "1.0.0",
+  "description": "Chat en vivo usando Websockets en NodeJs con ayuda de la libreria socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sockets/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianMM-96/live-chat.git"
+  },
+  "keywords": [],
+  "author": "Sebastián Marroquín",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianMM-96/live-chat/issues"
+  },
+  "homepage": "https://github.com/SebastianMM-96/live-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
